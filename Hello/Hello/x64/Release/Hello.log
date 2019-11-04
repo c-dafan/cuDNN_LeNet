@@ -1,0 +1,130 @@
+﻿  Compiling CUDA source file main.cpp...
+  Skipping CUDA source file main_cuda.cu (excluded from build).
+  
+  F:\acm\Cuda\Hello\Hello>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "G:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc141.pdb /FS /Zi  /MD " -o x64\Release\main.cpp.obj "F:\acm\Cuda\Hello\Hello\main.cpp" 
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(825): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(1760): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(2622): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(3461): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(4404): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(5302): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(6213): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(7094): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(7893): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt/device_functions.h(773): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt/device_functions.h(1629): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\opencv\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\opencv\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\opencv\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\opencv\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:/acm/Cuda/Hello/Hello/main.cpp(13): warning : return type of function "main" must be "int"
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(825): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(1760): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(2622): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(3461): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(4404): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(5302): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(6213): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(7094): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(7893): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt/device_functions.h(773): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt/device_functions.h(1629): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\opencv\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\opencv\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\opencv\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\opencv\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:/acm/Cuda/Hello/Hello/main.cpp(13): warning : return type of function "main" must be "int"
+  main.cpp
+d:\jsoncpp\include\json\reader.h(40): warning C4996: 'Json::Reader::Char': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(39): note: 参见“Json::Reader::Char”的声明
+d:\jsoncpp\include\json\reader.h(179): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(180): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(187): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(194): warning C4996: 'Json::Reader::Char': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(39): note: 参见“Json::Reader::Char”的声明
+d:\jsoncpp\include\json\reader.h(209): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(211): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(213): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(219): warning C4996: 'Json::Reader::Char': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(39): note: 参见“Json::Reader::Char”的声明
+d:\jsoncpp\include\json\reader.h(220): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(222): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(223): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(226): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(227): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(230): warning C4996: 'Json::Reader::Nodes': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(229): note: 参见“Json::Reader::Nodes”的声明
+d:\jsoncpp\include\json\reader.h(231): warning C4996: 'Json::Reader::Errors': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(190): note: 参见“Json::Reader::Errors”的声明
+d:\jsoncpp\include\json\reader.h(233): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(234): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(235): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(236): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(40): note: 参见“Json::Reader::Location”的声明
+d:\jsoncpp\include\json\reader.h(233): warning C4996: 'Json::Reader::Char': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(39): note: 参见“Json::Reader::Char”的声明
+d:\jsoncpp\include\json\reader.h(234): warning C4996: 'Json::Reader::Char': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(39): note: 参见“Json::Reader::Char”的声明
+d:\jsoncpp\include\json\reader.h(235): warning C4996: 'Json::Reader::Char': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(39): note: 参见“Json::Reader::Char”的声明
+d:\jsoncpp\include\json\reader.h(236): warning C4996: 'Json::Reader::Char': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(39): note: 参见“Json::Reader::Char”的声明
+F:/acm/Cuda/Hello/Hello/main.cpp(22): warning C4996: 'Json::Reader': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(36): note: 参见“Json::Reader”的声明
+F:/acm/Cuda/Hello/Hello/main.cpp(22): warning C4996: 'Json::Reader::Reader': Use CharReader and CharReaderBuilder instead
+  d:\jsoncpp\include\json\reader.h(56): note: 参见“Json::Reader::Reader”的声明
+F:/acm/Cuda/Hello/Hello/main.cpp(26): warning C4996: 'Json::Reader::parse': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(101): note: 参见“Json::Reader::parse”的声明
+F:/acm/Cuda/Hello/Hello/main.cpp(153): warning C4996: 'Json::Reader::nodes_': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(230): note: 参见“Json::Reader::nodes_”的声明
+  F:/acm/Cuda/Hello/Hello/main.cpp(153): note: 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void)”中
+F:/acm/Cuda/Hello/Hello/main.cpp(153): warning C4996: 'Json::Reader::errors_': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(231): note: 参见“Json::Reader::errors_”的声明
+  F:/acm/Cuda/Hello/Hello/main.cpp(153): note: 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void)”中
+F:/acm/Cuda/Hello/Hello/main.cpp(153): warning C4996: 'Json::Reader::document_': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(232): note: 参见“Json::Reader::document_”的声明
+  F:/acm/Cuda/Hello/Hello/main.cpp(153): note: 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void)”中
+F:/acm/Cuda/Hello/Hello/main.cpp(153): warning C4996: 'Json::Reader::commentsBefore_': Use CharReader and CharReaderBuilder instead.
+  d:\jsoncpp\include\json\reader.h(238): note: 参见“Json::Reader::commentsBefore_”的声明
+  F:/acm/Cuda/Hello/Hello/main.cpp(153): note: 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void)”中
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(825): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(1760): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(2622): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(3461): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(4404): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(5302): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(6213): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(7094): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.0\include\crt\math_functions.h(7893): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+    正在创建库 F:\acm\Cuda\Hello\x64\Release\Hello.lib 和对象 F:\acm\Cuda\Hello\x64\Release\Hello.exp
+  正在生成代码
+  495 of 506 functions (97.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Hello.vcxproj -> F:\acm\Cuda\Hello\x64\Release\Hello.exe
